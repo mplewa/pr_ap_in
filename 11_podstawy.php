@@ -1,3 +1,0 @@
-
-druga linia
-trzecia linia
