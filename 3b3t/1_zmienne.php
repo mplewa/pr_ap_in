@@ -11,7 +11,7 @@
     echo 'Imie: $name<br>';
     echo "Imie: $name<br>";
     echo "Nazwisko: $surname<br>",'<hr>';
-    // konkatenacja.
+    // konkatenacja.  
 
     // typy danych
     // boolean
