@@ -94,4 +94,12 @@ $x=(bool)$test1;
 echo "<hr>$x<br>";
 echo 'Typ danych $x: ', gettype($x);
 
+$test2=20;
+echo "<hr>$test2<br>";
+$test2=(unset)$test2;
+echo "$test2<br>";
+echo 'Typ danych $test2: 'gettype($test2), "<br>";
+
+//rozmiar typu integer
+echo PHP_INT_SIZE; //8
 ?>
