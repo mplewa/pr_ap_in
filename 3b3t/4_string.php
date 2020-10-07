@@ -60,7 +60,7 @@ LOREM;
 
     $address = "Poznań, ul. Polna 2, tel. (61)123-45-67";
     $search = strstr($address, 'tel', true);
-    echo '<br>Długość $search: ', strlen($search); //22(poslkie są x2)
+    echo '<br>Długość $search: ', strlen($search); //22(polskie są x2)
     echo "<br>$search<br>"; //Poznań, ul. Polna 2, 
 
     $address = "Poznań, ul. Polna 2, tel. (61)123-45-67";
